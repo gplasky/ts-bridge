@@ -88,6 +88,7 @@ using a git repository and
         project_id: "your_project_name"
     ```
 1.  Turn on the status page (uncomment #ENABLE\_STATUS\_PAGE: "yes" in `app.yaml`)
+1.  Update `SD_PROJECT_FOR_INTERNAL_METRICS` in your `app.yaml` to match the name of your GCP project.
 1.  Launch a dev server
     *   `dev_appserver.py app.yaml --port 18080`
 1.  Test via localhost/sync
